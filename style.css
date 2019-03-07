@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	border: 10px solid #fff;
+	background-color: #3c3f44;
+	min-height: 100%;
+	margin: 0px;
+}
+header {
+	padding: 20px;
+	background-color: #4A4F56;
+	box-sizing: border-box;
+	outline: 1px solid blue;
+}
+main {
+	wigth: 60%;
+	padding: 20px;
+	margin: 0 auto;
+	outline: 1px solid red;
+}
+li {
+	outline: 1px solid yellow;
+}
+li .hover
+li .focus {
+	border-bottom: 2px solid #fff;
+	border-top; 2px solid #fff;
+}
+form {
+	padding: 0px;
+	outline: 1px solid white;
+	display: block;
+}
+form .checked li span {
+	text-decoration: line-through:
+}
