@@ -1,38 +1,74 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
 }
 
 body {
 	border: 10px solid #fff;
+	display: block;
 	background-color: #3c3f44;
-	min-height: 100%;
+	height: 100%;
 	margin: 0px;
 }
+
 header {
 	padding: 20px;
 	background-color: #4A4F56;
 	box-sizing: border-box;
 	outline: 1px solid blue;
 }
+
+.red-text {
+	text-align: center;
+	color: #eb7e7f;
+}
+
+
+
 main {
-	wigth: 60%;
+	width: 60%;
 	padding: 20px;
 	margin: 0 auto;
 	outline: 1px solid red;
 }
-li {
-	outline: 1px solid yellow;
-}
-li .hover
-li .focus {
-	border-bottom: 2px solid #fff;
-	border-top; 2px solid #fff;
-}
+
 form {
 	padding: 0px;
 	outline: 1px solid white;
 	display: block;
+
 }
-form .checked li span {
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+li {
+	padding: 5px;
+	outline: 1px solid yellow;
+	color: #fff;
+}
+
+li :focus
+li :hover {
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+
+li :checked span small {
 	text-decoration: line-through:
+}
+
+li > span {
+	font-size: 30px;
+}
+
+footer p {
+	padding: 20px;
+	width: 60%;
+	margin: 0 auto;
+	background-color: #4a4f56;
+
 }
