@@ -4,26 +4,18 @@
 }
 
 body {
-	border: 10px solid #fff;
+	border: 20px solid #fff;
 	display: block;
+	margin: 0 auto;
+	min-height: 100vh;
 	background-color: #3c3f44;
-	height: 100%;
-	margin: 0px;
 }
 
 header {
 	padding: 20px;
 	background-color: #4A4F56;
-	box-sizing: border-box;
 	outline: 1px solid blue;
 }
-
-.red-text {
-	text-align: center;
-	color: #eb7e7f;
-}
-
-
 
 main {
 	width: 60%;
@@ -33,7 +25,9 @@ main {
 }
 
 form {
+	width: 80%;
 	padding: 0px;
+	margin: 0 auto;
 	outline: 1px solid white;
 	display: block;
 
@@ -42,33 +36,74 @@ form {
 ul {
 	list-style-type: none;
 	padding: 0px;
+	margin: 0 auto;
+	height: 100%;
 }
 
 li {
-	padding: 5px;
-	outline: 1px solid yellow;
+	padding: 20px;
+	/*outline: 1px solid yellow;*/
 	color: #fff;
 }
 
-li :focus
-li :hover {
-	border-bottom: 2px solid #fff;
-	border-top: 2px solid #fff;
+footer p {
+	width: 46.5%;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #4a4f56;
+	font-size: 25px;
 }
 
+.red-text {
+	text-align: center;
+	color: #eb7e7f;
+}
 
-li :checked span small {
-	text-decoration: line-through:
+h1 {
+	font-size: 40px;
+}
+
+h1 + p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;
+
 }
 
 li > span {
 	font-size: 30px;
 }
 
-footer p {
-	padding: 20px;
-	width: 60%;
-	margin: 0 auto;
-	background-color: #4a4f56;
 
+small:before {
+	content: "(";
 }
+
+small:after {
+	content: ")"
+}
+
+.darkgray {
+	background-color: #7a7593;
+}
+li:nth-child(even) {
+	background-color: #9d9baf;
+}
+
+li:hover {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	background-color: #625e77;
+}
+
+li:active {
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	background-color: #e08283;
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px
+}
+
