@@ -14,22 +14,22 @@ body {
 header {
 	padding: 20px;
 	background-color: #4A4F56;
-	outline: 1px solid blue;
+	/*outline: 1px solid blue;*/
 }
 
 main {
 	width: 60%;
 	padding: 20px;
 	margin: 0 auto;
-	outline: 1px solid red;
+	/*outline: 1px solid red;*/
 }
 
 form {
 	width: 80%;
 	padding: 0px;
 	margin: 0 auto;
-	outline: 1px solid white;
 	display: block;
+	/*outline: 1px solid white;*/
 
 }
 
@@ -41,13 +41,12 @@ ul {
 }
 
 li {
-	padding: 20px;
-	/*outline: 1px solid yellow;*/
 	color: #fff;
+	/*outline: 1px solid yellow;*/
 }
 
 footer p {
-	width: 46.5%;
+	width: 46.2%;
 	padding: 20px;
 	margin: 0 auto;
 	background-color: #4a4f56;
@@ -70,7 +69,7 @@ h1 + p {
 
 }
 
-li > span {
+span {
 	font-size: 30px;
 }
 
@@ -107,3 +106,13 @@ input[type="checkbox"] {
 	height: 20px
 }
 
+label {
+	display: block;
+	padding: 20px;
+	/*outline: 1px solid green;*/
+}
+
+input:checked + span {
+	text-decoration: line-through;
+	color: #a19caf;
+}
