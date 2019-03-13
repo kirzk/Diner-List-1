@@ -124,13 +124,8 @@ label {
 	/*outline: 1px solid green;*/
 }
 
-input:checked + span:nth-child(even) {
+input:checked + span {
 	text-decoration: line-through;
-	color: #7a7593;
-}
-
-input:checked + span:nth-child(odd) {
-	text-decoration: line-through;
-	color: #a19caf;
+	color: #4a4f56;
 }
 
